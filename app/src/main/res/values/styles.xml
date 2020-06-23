@@ -1,0 +1,65 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="title_text" parent="AppTheme">
+
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+    </style>
+
+    <style name="light_desc_text" parent="AppTheme">
+
+        <item name="android:textColor">@color/light_desc_text_color</item>
+        <item name="android:textSize">16dp</item>
+
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+    </style>
+
+    <style name="h1_text" parent="AppTheme">
+
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="h2_text" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="desc_text" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+    </style>
+
+    <style name="btn_text" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="btn_total" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+</resources>
